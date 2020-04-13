@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pino": "6.2.0"
+    "pino": "6.2.0",
+    "pino-caller": "3.0.1"
+  },
+  "engines": {
+    "node": ">=12.16.0"
   }
 }
